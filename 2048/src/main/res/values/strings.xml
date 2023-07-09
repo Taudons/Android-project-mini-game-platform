@@ -1,0 +1,24 @@
+<resources>
+    <string name="btn_restart_game">新的游戏</string>
+    <string name="btn_continue_game">继续游戏</string>
+    <string name="app_name">2048</string>
+    <string name="tv_current_score">分数</string>
+    <string name="tv_best_score">最高分</string>
+
+    <string name="btn_reset">重新开始</string>
+    <string name="no_score">0</string>
+    <string name="tv_configuration_option">设置</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_back">返回</string>
+    <string name="tv_setting_volume">游戏音效</string>
+    <string name="btn_volume_on">开启</string>
+    <string name="btn_volume_off">关闭</string>
+    <string name="tv_goal_time">2048达成次数</string>
+    <string name="btn_option">设置</string>
+    <string name="tip">提示</string>
+    <string name="tv_describe_infinite">突破2048限制，追求更高分数！</string>
+
+    <string name="tip_reset_btn">重置后将丢失当前游戏进度，确认重置？</string>
+    <string name="tv_go_on">继续</string>
+</resources>

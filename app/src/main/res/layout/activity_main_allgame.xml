@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allgameback">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择游戏"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:background="@color/white">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/dadishu" />
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009366"
+                android:textColor="#FFFFFF"
+                android:text="打地鼠"
+                android:textSize="18sp"
+                android:layout_below="@id/iv_1"
+                android:layout_marginLeft="80dp" />
+
+            <ImageView
+                android:id="@+id/iv_2"
+                android:layout_width="97dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/saolei" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009366"
+                android:textColor="#FFFFFF"
+                android:text="扫雷"
+                android:textSize="18sp"
+                android:layout_below="@id/iv_2"
+                android:layout_marginLeft="250dp" />
+
+            <ImageView
+                android:id="@+id/iv_3"
+                android:layout_width="102dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/huarongdao"/>
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009366"
+                android:textColor="#FFFFFF"
+                android:text="华容道"
+                android:textSize="18sp"
+                android:layout_below="@id/iv_3"
+                android:layout_marginLeft="80dp"/>
+
+            <ImageView
+                android:id="@+id/iv_4"
+                android:layout_width="97dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/erlingsiba"/>
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009366"
+                android:textColor="#FFFFFF"
+                android:text="2048"
+                android:textSize="18sp"
+                android:layout_below="@id/iv_4"
+                android:layout_marginLeft="250dp"/>
+
+            <ImageView
+                android:id="@+id/iv_5"
+                android:layout_width="104dp"
+                android:layout_height="102dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/shudu"/>
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009366"
+                android:textColor="#FFFFFF"
+                android:text="数独"
+                android:textSize="18sp"
+                android:layout_below="@id/iv_5"
+                android:layout_marginLeft="80dp"/>
+
+            <ImageView
+                android:id="@+id/iv_6"
+                android:layout_width="99dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="472dp"
+                android:background="@drawable/taptap"/>
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009366"
+                android:textColor="#FFFFFF"
+                android:text="更多游戏"
+                android:textSize="18sp"
+                android:layout_below="@id/iv_6"
+                android:layout_marginLeft="250dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

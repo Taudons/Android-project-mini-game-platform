@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorTheme</color>
+    <color name="colorPrimaryDark">@color/colorTheme</color>
+    <color name="colorAccent">#E7475E</color>
+
+    <color name="colorTheme">#A3C6EE</color>
+<!--    <color name="colorThemeLow">#D9C0AF9D</color>-->
+
+    <color name="cell_0">#D9CDC1B3</color>
+    <color name="cell_2">#EEE4DA</color>
+    <color name="cell_4">#EDDCBE</color>
+    <color name="cell_8">#F3B079</color>
+    <color name="cell_16">#F7925C</color>
+    <color name="cell_32">#F57656</color>
+    <color name="cell_64">#F4522C</color>
+    <color name="cell_128">#EDCE71</color>
+    <color name="cell_256">#E6D151</color>
+    <color name="cell_512">#CFA30C</color>
+    <color name="cell_1024">#E6B405</color>
+    <color name="cell_2048">#EEC22E</color>
+    <color name="cell_default">#F32242</color>
+
+    <!-- 文字颜色(黑) 深 浅 -->
+    <color name="colorTextDark">#252A34</color>
+
+    <color name="colorTextLow">#393E46</color>
+
+    <color name="colorGrey">#C0AF9D</color>
+
+    <color name="colorWhite">#E6E6E6</color>
+
+</resources>
